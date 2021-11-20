@@ -33,7 +33,7 @@ fn main() {
     // parse cmd line options
     let matches = App::new("macconv")
         .version("1.0.0")
-        .author("Thomas Thiel <wolfchild@wolfchild.de>")
+        .author("Thomas Thiel <kv@wolfchild.de>")
         .about("normalizes and converts mac addresses.")
         .arg(Arg::with_name("mac")
                  .help("A MAC Address to work on")
